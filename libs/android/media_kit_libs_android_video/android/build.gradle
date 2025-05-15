@@ -60,8 +60,8 @@ task downloadDependencies(type: Exec) {
         def filesToDownload = [
             ["url": "https://github.com/user1121114685/libmpv-android-video-build/releases/download/20250512/default-arm64-v8a.jar", "md5": "eadad1af4315221a78d9b3a38a31aa18", "destination": file("$buildDir/20250512/default-arm64-v8a.jar")],
             ["url": "https://github.com/user1121114685/libmpv-android-video-build/releases/download/20250512/default-armeabi-v7a.jar", "md5": "eed30c77a1b46b971f219d081c3a0b4c", "destination": file("$buildDir/20250512/default-armeabi-v7a.jar")],
-            ["url": "https://github.com/user1121114685/libmpv-android-video-build/releases/download/20250512/default-x86_64.jar", "md5": "5f49a27816218d578cb5d11c9bb096a8", "destination": file("$buildDir/20250512/default-x86_64.jar")],
-            ["url": "https://github.com/user1121114685/libmpv-android-video-build/releases/download/20250512/default-x86.jar", "md5": "c5397bb8de9e45ba7a00b8bd02d15d91", "destination": file("$buildDir/20250512/default-x86.jar")]
+            ["url": "https://github.com/user1121114685/libmpv-android-video-build/releases/download/20250512/default-x86_64.jar", "md5": "c5397bb8de9e45ba7a00b8bd02d15d91", "destination": file("$buildDir/20250512/default-x86_64.jar")],
+            ["url": "https://github.com/user1121114685/libmpv-android-video-build/releases/download/20250512/default-x86.jar", "md5": "5f49a27816218d578cb5d11c9bb096a8", "destination": file("$buildDir/20250512/default-x86.jar")]
         ]
 
         filesToDownload.each { fileInfo ->
